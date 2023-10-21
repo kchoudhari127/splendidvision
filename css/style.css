@@ -362,7 +362,7 @@ figure {
 .nav-header {
   position: relative;
   float: left;
-  width: 80%;
+  width: 100%;
 }
 
 #fh5co-logo {
@@ -1467,6 +1467,11 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+.mb-header .navbar-brand {
+    margin-left: 2.5rem;
+    padding: 10px 10px 10px 0;
+}
+
 .inner-banner img {
     width: 100%;
 }
@@ -1476,5 +1481,6 @@ figure {
     font-size: 2.5rem;
    }
 }
+
 
 /*# sourceMappingURL=style.css.map */
